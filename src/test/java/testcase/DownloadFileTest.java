@@ -23,7 +23,7 @@ public class DownloadFileTest extends BaseSetup {
         try {
             driver.get(baseUrl);
             downloadPage.clickOnDownloadFile();
-            Thread.sleep(5000);
+            Thread.sleep(2000);
         } catch (Exception e) {
             e.printStackTrace();
         }
